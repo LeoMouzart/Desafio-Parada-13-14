@@ -10,4 +10,4 @@ Faça o envio através de um repositório no github.
 
 ### Sobre o desafio -------
 
-O tema escolhido pe um site voltado para conteúdo geek - séries, animes e games.
+O tema escolhido pe um site voltado para conteúdo geek - séries, animes e filmes.
