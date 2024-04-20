@@ -1,3 +1,87 @@
+@media screen and (max-width: 1024px) {
+  .news-board {
+    display: none;
+  }
+  .nav-box {
+    width: 100%;
+  }
+  .menu-nav {
+    justify-content: center;
+  }
+  p,
+  ul,
+  span {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 658px) and (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+  .nav-box {
+    max-width: 100%;
+  }
+
+  #header-container {
+    max-width: 100%;
+  }
+
+  .btn {
+    display: none;
+  }
+  .pesquisa input {
+    display: none;
+  }
+  .menu-nav {
+    justify-content: center;
+    margin-left: 60px;
+  }
+  .about {
+    max-width: 100%;
+  }
+
+  p,
+  ul,
+  span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: ) {
+  body {
+    max-width: 100%;
+  }
+  .nav-box {
+    max-width: 100%;
+  }
+
+  #header-container {
+    max-width: 100%;
+  }
+
+  .btn {
+    display: none;
+  }
+  .pesquisa input {
+    display: none;
+  }
+  .menu-nav {
+    justify-content: center;
+    margin-left: 60px;
+  }
+  .about {
+    max-width: 100%;
+  }
+
+  p,
+  ul,
+  span {
+    font-size: 20px;
+  }
+}
+
 @keyframes animacao {
   0% {
     background-image: url(/img/img-site/transition5.jpe);
@@ -44,6 +128,18 @@
     background-color: rgb(0, 0, 0);
     color: bisque;
     text-transform: uppercase;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
@@ -216,6 +312,7 @@ p {
   letter-spacing: 10px;
   background-image: linear-gradient(to bottom, #000, #e72929);
   color: #ffff;
+  animation: pulse 2s infinite;
 }
 
 span {
