@@ -1,0 +1,37 @@
+@media screen and (min-width: 882px) and (max-width: 1024px) {
+  .bloc-container {
+    max-width: 100%;
+  }
+
+  .card-conteudo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bloc-container {
+    display: none;
+  }
+  .ficha-tecnica {
+    width: 500px;
+  }
+
+  .ficha-tecnica p {
+    text-wrap: wrap;
+  }
+
+  .card-conteudo,
+  h2 {
+    display: none;
+  }
+
+  #title-menu {
+    display: none;
+  }
+  .aside-menu {
+    width: 195px;
+  }
+  .aside-item {
+    font-size: 20px;
+  }
+}
