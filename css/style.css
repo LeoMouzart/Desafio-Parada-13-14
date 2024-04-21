@@ -2,6 +2,21 @@
   .news-board {
     display: none;
   }
+  .bloc-container {
+    max-width: 800px;
+  }
+
+  .card-conteudo {
+    display: none;
+  }
+
+  .ficha-tecnica {
+    width: 800px;
+  }
+  .ficha-tecnica p {
+    max-width: 800px;
+  }
+
   .nav-box {
     width: 100%;
   }
@@ -9,47 +24,16 @@
     justify-content: center;
   }
   p,
-  ul,
-  span {
+  ul {
     font-size: 20px;
     text-align: center;
+  }
+  .footer-text {
+    display: none;
   }
 }
 
 @media screen and (min-width: 658px) and (max-width: 768px) {
-  body {
-    max-width: 100%;
-  }
-  .nav-box {
-    max-width: 100%;
-  }
-
-  #header-container {
-    max-width: 100%;
-  }
-
-  .btn {
-    display: none;
-  }
-  .pesquisa input {
-    display: none;
-  }
-  .menu-nav {
-    justify-content: center;
-    margin-left: 60px;
-  }
-  .about {
-    max-width: 100%;
-  }
-
-  p,
-  ul,
-  span {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: ) {
   body {
     max-width: 100%;
   }
@@ -133,13 +117,13 @@
 
 @keyframes pulse {
   0% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1);
   }
   100% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
 }
 
@@ -244,7 +228,7 @@ p {
 .nav-box {
   display: flex;
   justify-content: space-between;
-  background-color: #f6f5f2;
+  background-image: linear-gradient(to bottom, #000, #e72929);
 }
 
 .menu-nav {
@@ -269,6 +253,7 @@ p {
 }
 .menu-item a {
   margin: 5px;
+  color: #f6f5f2;
 }
 .menu-item:hover {
   border-left: 3px solid black;
@@ -312,7 +297,7 @@ p {
   letter-spacing: 10px;
   background-image: linear-gradient(to bottom, #000, #e72929);
   color: #ffff;
-  animation: pulse 2s infinite;
+  animation: pulse 1s infinite;
 }
 
 span {
@@ -383,10 +368,6 @@ span {
 .card-paragrafo {
   margin-top: 0;
   width: 490px;
-  /* border-bottom: 4px solid skyblue;
-  border-left: 4px solid skyblue;
-  border-right: 4px solid skyblue;
-  border-radius: 5px; */
 }
 #card-main p {
   font-size: 28px;
@@ -490,4 +471,36 @@ span {
   height: 190px;
   transition: 1s;
   cursor: pointer;
+}
+
+#footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 80px;
+  background-color: #f6f5f2;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "000webfont", sans-serif;
+  font-size: 18px;
+  letter-spacing: 10px;
+  background-image: linear-gradient(to bottom, #0c0c0c, #e72929);
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+.footer-text p {
+  font-size: 22px;
+  line-height: 5pxpx;
+}
+.social-tittle h4 {
+  color: #f6f5f2;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-top: 5px;
 }

@@ -1,0 +1,48 @@
+.bloc-display {
+  align-items: center;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+#mcard10 {
+  background-image: url(/img/img-boards/thimoteeCard.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mcard11 {
+  background-image: url(/img/img-boards/austinb.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mcard12 {
+  background-image: url(/img/img-boards/zendaya.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mcard13 {
+  background-image: url(/img/img-boards/javierb.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mcard14 {
+  background-image: url(/img/img-boards/josh.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mcard14 {
+  background-image: url(/img/img-boards/dave.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mcard15 {
+  background-image: url(/img/img-boards/jessica.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
