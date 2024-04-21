@@ -14,4 +14,5 @@ O tema escolhido pe um site voltado para conteúdo geek - séries, animes e film
 
 ### Responsividade
 
-Aplicada á pagina inicial, index.html, para as dimensões de tablet e notebook porem não consegui aplicar para dispositivos menores.
+Aplicada á todas as paginas os valores padrões
+para notebook, e tablet.
